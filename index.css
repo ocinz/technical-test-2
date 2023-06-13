@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  height: 1vh;
+}
+img {
+  width: 70px;
+}
+.container {
+  display: flex;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 30px;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+.title {
+  font-weight: 700;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+}
+.button {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("https://fonts.google.com/specimen/Lexend+Deca") format("truetype");
+}
+.attribution {
+  text-align: center;
+}
